@@ -1,0 +1,116 @@
+.logo {
+  width: 44px;
+  height: 21px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.studio-top {
+  width: 71px;
+  height: 21px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.link-studio {
+  width: 48px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.link-portfolio {
+    width: 66px;
+height: 24px
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.link-contacts{
+
+    width: 67px;
+height: 24px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.title {
+  /* main section title h1 */
+  position: absolute;
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+
+  /* main section order service */
+}
+.order-service {
+  width: 105px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
