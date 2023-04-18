@@ -167,6 +167,24 @@ button:focus {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
+/* section four */
+.four-section-title {
+  position: absolute;
+  width: 162px;
+  height: 40px;
+  left: 639px;
+  top: 1668px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 /* footer section */
 .studio-bottom {
   width: 71px;
