@@ -101,6 +101,9 @@ a:focus {
   flex-grow: 0;
 }
 
+.adress {
+  font-style: normal;
+}
 .title {
   /* main section title h1 */
   position: absolute;
