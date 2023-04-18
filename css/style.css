@@ -169,6 +169,9 @@ button:focus {
 }
 
 /* section four */
+.four-section {
+  background-color: #f4f4fd;
+}
 .four-section-title {
   position: absolute;
   width: 162px;
