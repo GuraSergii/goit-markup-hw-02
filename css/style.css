@@ -29,7 +29,8 @@ body {
   flex-grow: 0;
   text-decoration: none;
 }
-.header-nav-list {
+
+.list {
   list-style: none;
 }
 .studio-top {
