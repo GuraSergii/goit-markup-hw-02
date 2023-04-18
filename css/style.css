@@ -188,6 +188,9 @@ button:focus {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.four-section-list {
+  background-color: #ffffff;
+}
 /* footer section */
 .studio-bottom {
   width: 71px;
