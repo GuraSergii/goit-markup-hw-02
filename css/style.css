@@ -60,6 +60,9 @@ a:focus {
   order: 1;
   flex-grow: 0;
 }
+.link-studio link:hover {
+  color: #404bbf;
+}
 
 .link-studio {
   width: 48px;
