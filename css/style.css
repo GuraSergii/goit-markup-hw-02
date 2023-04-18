@@ -33,6 +33,11 @@ body {
 .list {
   list-style: none;
 }
+a:hover,
+a:focus {
+  color: #404bbf;
+}
+
 .studio-top {
   width: 71px;
   height: 21px;
