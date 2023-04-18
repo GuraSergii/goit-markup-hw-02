@@ -106,6 +106,9 @@ a:focus {
   flex-grow: 0;
 }
 
+.main-section {
+  background-color: #2e2f42;
+}
 .title {
   /* main section title h1 */
   position: absolute;
@@ -117,7 +120,7 @@ a:focus {
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -127,7 +130,7 @@ a:focus {
 .order-service {
   width: 105px;
   height: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -139,8 +142,13 @@ a:focus {
   flex: none;
   order: 0;
   flex-grow: 0;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
-
+button:hover,
+button:focus {
+  color: #404bbf;
+}
 /* footer section */
 .studio-bottom {
   width: 71px;
