@@ -38,7 +38,9 @@ body {
   color: #434455;
   font-style: normal;
 }
-a:hover,
+a:hover {
+  color: #404bbf;
+}
 a:focus {
   color: #404bbf;
 }
@@ -59,9 +61,6 @@ a:focus {
   flex: none;
   order: 1;
   flex-grow: 0;
-}
-.link-studio link:hover {
-  color: #404bbf;
 }
 
 .link-studio {
