@@ -38,13 +38,9 @@ body {
   color: #434455;
   font-style: normal;
 }
-a:hover {
-  color: #404bbf;
+
 }
-a:focus {
-  color: #404bbf;
-}
-a:active {
+a:focus, a:hover {
   color: #404bbf;
 }
 
