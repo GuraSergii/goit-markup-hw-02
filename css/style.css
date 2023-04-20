@@ -238,7 +238,7 @@ footer {
 .allbutton {
   width: 21px;
   height: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -247,8 +247,16 @@ footer {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
   flex: none;
   order: 0;
   flex-grow: 0;
+  cursor: pointer;
+}
+
+allbutton:focus,
+:hover {
+  color: #ffffff;
+  background-color: #404bbf;
 }
