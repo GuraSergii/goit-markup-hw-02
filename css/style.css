@@ -44,6 +44,9 @@ a:hover {
 a:focus {
   color: #404bbf;
 }
+a:active {
+  color: #404bbf;
+}
 
 .studio-top {
   width: 71px;
