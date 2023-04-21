@@ -42,10 +42,7 @@ body {
 a:focus {
   color: #404bbf;
 }
-/* a:hover {
-  color: #404bbf;
-} */
-.link:hover {
+a:hover {
   color: #404bbf;
 }
 
