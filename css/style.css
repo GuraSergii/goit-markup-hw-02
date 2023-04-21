@@ -39,9 +39,9 @@ body {
   font-style: normal;
 }
 
-/* a:focus {
+a:focus {
   color: #404bbf;
-} */
+}
 a:hover {
   color: #404bbf;
 }
