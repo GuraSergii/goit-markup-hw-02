@@ -259,11 +259,17 @@ footer {
   cursor: pointer;
 }
 
-allbutton :hover {
+/* allbutton :hover {
   color: #ffffff;
   background-color: #404bbf;
 }
 allbutton:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+} */
+
+button:hover,
+button:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
