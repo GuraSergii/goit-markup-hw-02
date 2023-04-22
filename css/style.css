@@ -232,22 +232,16 @@ footer {
 }
 
 .allbutton {
-  width: 21px;
-  height: 24px;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
+
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1, 5;
   display: flex;
-  align-items: center;
-  text-align: center;
+
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+
   cursor: pointer;
 }
 
