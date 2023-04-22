@@ -249,8 +249,6 @@ footer {
 }
 
 .portfolio-title {
-  width: 124px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -258,14 +256,9 @@ footer {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .portfolio-p {
-  width: 65px;
-  height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -273,9 +266,6 @@ footer {
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .bank {
