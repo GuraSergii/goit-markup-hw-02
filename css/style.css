@@ -214,11 +214,6 @@ button:focus {
   flex-grow: 0;
 }
 .footer-p {
-  position: absolute;
-  width: 264px;
-  height: 72px;
-  left: 156px;
-  top: 2420px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
