@@ -148,14 +148,17 @@ a:hover {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-button:hover,
+/* button:hover,
 button:focus {
   color: #ffffff;
   background-color: #404bbf;
-}
+} */
 
-.allbutton:hover,
-.allbutton:focus {
+.list:hover .allbutton {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.list:focus .allbutton {
   color: #ffffff;
   background-color: #404bbf;
 }
