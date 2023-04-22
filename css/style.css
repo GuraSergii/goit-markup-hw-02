@@ -20,7 +20,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   display: flex;
-  align-items: center;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -148,17 +148,14 @@ a:hover {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-/* button:hover,
+button:hover,
 button:focus {
   color: #ffffff;
   background-color: #404bbf;
-} */
-
-.list:hover .allbutton {
-  color: #ffffff;
-  background-color: #404bbf;
 }
-.list:focus .allbutton {
+
+.allbutton:hover,
+.allbutton:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
