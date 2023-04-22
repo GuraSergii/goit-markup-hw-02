@@ -154,6 +154,11 @@ button:focus {
   background-color: #404bbf;
 }
 
+.allbutton:hover,
+.allbutton:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
 /* section two */
 .list-title {
   font-weight: 500;
