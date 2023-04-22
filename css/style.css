@@ -289,3 +289,16 @@ footer {
   order: 1;
   flex-grow: 0;
 }
+
+.bank {
+  width: 360px;
+  height: 420px;
+  top: 288px;
+  left: 156px;
+}
+.cash {
+  width: 360px;
+  height: 420px;
+  top: 288px;
+  left: 540px;
+}
