@@ -149,11 +149,11 @@ a:hover {
   cursor: pointer;
 }
 button:hover {
-  color: #404bbf;
+  color: #ffffff;
   background-color: #404bbf;
 }
 button:focus {
-  color: #404bbf;
+  color: #ffffff;
   background-color: #404bbf;
 }
 
