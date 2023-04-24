@@ -53,9 +53,7 @@ a:hover {
 }
 
 .link-studio {
-  width: 48px;
   height: 24px;
-
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -63,8 +61,6 @@ a:hover {
   letter-spacing: 0.02em;
   color: #2e2f42;
   flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .link-portfolio {
