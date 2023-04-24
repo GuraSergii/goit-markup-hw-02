@@ -2,7 +2,6 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -15,16 +14,7 @@ body {
 
 /* Header styles  */
 .link {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  flex: none;
+  text-decoration: none;
 }
 
 .list {
@@ -57,12 +47,12 @@ a:hover {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
+
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  flex: none;
+
   order: 1;
   flex-grow: 0;
 }
