@@ -46,20 +46,16 @@ a:hover {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-
-  order: 1;
-  flex-grow: 0;
 }
 
 .link-studio {
   width: 48px;
   height: 24px;
-  font-family: "Roboto";
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -74,7 +70,7 @@ a:hover {
 .link-portfolio {
   width: 66px;
   height: 24px;
-  font-family: "Roboto";
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -89,7 +85,7 @@ a:hover {
 .link-contacts {
   width: 67px;
   height: 24px;
-  font-family: "Roboto";
+
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -107,27 +103,22 @@ a:hover {
 .title {
   /* main section title h1 */
 
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-
   letter-spacing: 0.02em;
   color: #ffffff;
 
   /* main section order service */
 }
 .order-service {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-
   letter-spacing: 0.04em;
   color: #ffffff;
-
   background-color: #4d5ae5;
   cursor: pointer;
 }
@@ -170,7 +161,7 @@ button:focus {
   height: 40px;
   left: 639px;
   top: 1668px;
-  font-family: "Roboto";
+
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -202,7 +193,6 @@ button:focus {
   flex-grow: 0;
 }
 .footer-p {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -215,7 +205,6 @@ footer {
 }
 
 .allbutton {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -237,8 +226,6 @@ footer {
 }
 
 .portfolio-p {
-  font-family: "Roboto";
-
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
