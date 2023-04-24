@@ -162,7 +162,6 @@ button:focus {
   height: 40px;
   left: 639px;
   top: 1668px;
-
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -210,11 +209,10 @@ footer {
   font-size: 16px;
   line-height: 1.5;
   display: flex;
-
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
-
   cursor: pointer;
 }
 
