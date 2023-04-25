@@ -27,7 +27,6 @@ body {
 
 /* Header styles  */
 .header {
-  width: 1440px;
 }
 .list {
   line-height: 1.5;
@@ -173,7 +172,6 @@ button:focus {
   font-size: 36px;
   line-height: 1.11;
 
-  text-transform: capitalize;
   color: var(--color-navy-blue-modal);
 }
 
@@ -182,18 +180,16 @@ button:focus {
   background-color: var(--color-cloud);
 }
 .four-section-title {
-  position: absolute;
   width: 162px;
   height: 40px;
-  left: 639px;
-  top: 1668px;
+
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
 
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+
   color: var(--color-navy-blue-modal);
 }
 .four-section-list {
