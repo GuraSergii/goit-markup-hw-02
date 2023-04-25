@@ -50,6 +50,17 @@ a:hover {
   letter-spacing: 0.03em;
   color: var(--color-iris);
 }
+
+address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
 .studio-top {
   width: 71px;
   height: 21px;
@@ -107,6 +118,11 @@ a:hover {
 
 .main-section {
   background-color: var(--color-navy-blue-modal);
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
 }
 .title {
   /* main section title h1 */
@@ -130,6 +146,9 @@ a:hover {
   background-color: var(--color-iris);
   cursor: pointer;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  flex: none;
 }
 button:hover,
 button:focus {
