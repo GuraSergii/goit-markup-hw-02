@@ -28,7 +28,6 @@ body {
 /* Header styles  */
 .header {
   width: 1440px;
-  height: 72px;
 }
 .list {
   line-height: 1.5;
@@ -173,7 +172,7 @@ button:focus {
 .tree-section-title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
+
   text-transform: capitalize;
   color: var(--color-navy-blue-modal);
 }
@@ -192,7 +191,7 @@ button:focus {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
+
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue-modal);
