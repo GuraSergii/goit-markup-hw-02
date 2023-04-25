@@ -26,7 +26,13 @@ body {
 }
 
 /* Header styles  */
-
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 180px;
+  top: -11px;
+}
 .list {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -120,7 +126,7 @@ address {
   background-color: var(--color-navy-blue-modal);
   position: absolute;
   width: 1440px;
-  height: 600px;
+  height: px;
   left: 0px;
   top: 72px;
 }
@@ -148,7 +154,6 @@ address {
   font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
-  flex: none;
 }
 button:hover,
 button:focus {
@@ -229,6 +234,11 @@ button:focus {
 }
 footer {
   background: var(--color-navy-blue-modal);
+  position: absolute;
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 2280px;
 }
 
 .allbutton {
