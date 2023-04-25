@@ -146,7 +146,7 @@ address {
   background-color: var(--color-iris);
   cursor: pointer;
   font-family: "Roboto", sans-serif;
-  display: flex;
+
   align-items: center;
 }
 button:hover,
@@ -209,7 +209,7 @@ button:focus {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  display: flex;
+
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -229,12 +229,10 @@ button:focus {
 footer {
   background: var(--color-navy-blue-modal);
 
-  display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
   gap: 334px;
-
   width: 1050px;
   height: 165px;
 }
