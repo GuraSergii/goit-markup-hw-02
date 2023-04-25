@@ -26,6 +26,8 @@ body {
 }
 
 /* Header styles  */
+.logo {
+}
 
 .list {
   line-height: 1.5;
@@ -34,13 +36,6 @@ body {
   font-style: normal;
   font-size: 16px;
   list-style: none;
-}
-
-.medit {
-  width: 360px;
-  height: 420px;
-  top: 288px;
-  left: 924px;
 }
 
 a:focus {
