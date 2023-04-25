@@ -121,11 +121,8 @@ address {
 
 .main-section {
   background-color: var(--color-navy-blue-modal);
-  position: absolute;
-  width: 1440px;
-  height: px;
-  left: 0px;
-  top: 72px;
+  width: 1050px;
+  height: 159px;
 }
 .title {
   /* main section title h1 */
@@ -232,8 +229,14 @@ button:focus {
 footer {
   background: var(--color-navy-blue-modal);
 
-  width: 1440px;
-  height: 312px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 334px;
+
+  width: 1050px;
+  height: 165px;
 }
 
 .allbutton {
