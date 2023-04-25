@@ -1,10 +1,22 @@
 :root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-iris: #4d5ae5;
+  --color-white: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--color-slate);
+  background-color: var(--color-white);
 }
 
 /* Base styles */
@@ -18,7 +30,7 @@ body {
 .list {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-slate);
   font-style: normal;
   font-size: 16px;
   list-style: none;
@@ -32,10 +44,10 @@ body {
 }
 
 a:focus {
-  color: #404bbf;
+  color: var(--color-ocean);
 }
 a:hover {
-  color: #404bbf;
+  color: var(--color-ocean);
 }
 
 .studio-top {
@@ -49,7 +61,7 @@ a:hover {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--color-navy-blue-modal);
 }
 
 .link-studio {
@@ -59,7 +71,7 @@ a:hover {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-navy-blue-modal);
   flex: none;
 }
 
@@ -72,7 +84,7 @@ a:hover {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-navy-blue-modal);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -87,14 +99,14 @@ a:hover {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-navy-blue-modal);
   flex: none;
   order: 2;
   flex-grow: 0;
 }
 
 .main-section {
-  background-color: #2e2f42;
+  background-color: var(--color-navy-blue-modal);
 }
 .title {
   /* main section title h1 */
@@ -104,7 +116,7 @@ a:hover {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-white);
   text-align: center;
   /* main section order service */
 }
@@ -114,21 +126,21 @@ a:hover {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--color-white);
+  background-color: var(--color-iris);
   cursor: pointer;
   font-family: "Roboto", sans-serif;
 }
 button:hover,
 button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--color-white);
+  background-color: var(--color-ocean);
 }
 
 .allbutton:hover,
 .allbutton:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--color-white);
+  background-color: var(--color-ocean);
 }
 /* section two */
 .list-title {
@@ -136,7 +148,7 @@ button:focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-navy-blue-modal);
 }
 
 /* section three */
@@ -145,12 +157,12 @@ button:focus {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-navy-blue-modal);
 }
 
 /* section four */
 .four-section {
-  background-color: #f4f4fd;
+  background-color: var(--color-cloud);
 }
 .four-section-title {
   position: absolute;
@@ -165,10 +177,10 @@ button:focus {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--color-navy-blue-modal);
 }
 .four-section-list {
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 /* footer section */
 .studio-bottom {
@@ -183,7 +195,7 @@ button:focus {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--color-cloud);
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -194,10 +206,10 @@ button:focus {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--color-cloud);
 }
 footer {
-  background: #2e2f42;
+  background: var(--color-navy-blue-modal);
 }
 
 .allbutton {
@@ -207,8 +219,8 @@ footer {
   display: flex;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
   cursor: pointer;
 }
 
@@ -217,7 +229,7 @@ footer {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-navy-blue-modal);
 }
 
 .portfolio-p {
@@ -225,18 +237,5 @@ footer {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.bank {
-  width: 360px;
-  height: 420px;
-  top: 288px;
-  left: 156px;
-}
-.cash {
-  width: 360px;
-  height: 420px;
-  top: 288px;
-  left: 540px;
+  color: var(--color-slate);
 }
